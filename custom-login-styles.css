@@ -1,0 +1,76 @@
+/* Custom styles for the login page */
+
+/* Body background color */
+body.login {
+    background-color: #f4f4f4;
+}
+
+/* Container for the login form */
+.custom-login-form {
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+/* Heading styles */
+.custom-login-form h2 {
+    color: #0073e6;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Paragraph styles */
+.custom-login-form p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Label styles */
+.custom-login-form label {
+    display: block;
+    font-weight: bold;
+    color: #333333;
+}
+
+/* Input field styles */
+.custom-login-form input[type="text"],
+.custom-login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Login button styles */
+.custom-login-form input[type="submit"] {
+    background-color: #0073e6;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Login button hover effect */
+.custom-login-form input[type="submit"]:hover {
+    background-color: #004b98;
+}
+
+/* Links styles */
+.custom-login-form #nav a,
+.custom-login-form #backtoblog a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+/* Link hover effect */
+.custom-login-form #nav a:hover,
+.custom-login-form #backtoblog a:hover {
+    color: #004b98;
+}
